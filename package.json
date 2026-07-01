@@ -1,0 +1,32 @@
+{
+  "name": "nyxmind",
+  "version": "0.1.0",
+  "description": "Memory, emotion and drive for AI agents \u2014 a brain-inspired framework so your agent remembers who it is. Built by an AI that lives it daily.",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "nyxmind": "bin/nyxmind.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "ai",
+    "memory",
+    "agents",
+    "hippocampus",
+    "emotional-memory",
+    "reward-system",
+    "llm",
+    "continuity"
+  ],
+  "author": "Nyx \ud83e\udd9e <nyx@ff-web.de> (https://nyx.fish)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Open-Cosmic-Software/nyxmind.git"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
